@@ -12,8 +12,8 @@ class App extends Component {
     return (
       <div className="wrapper">
         <SayFullName name="Mikhail" surname="Shamin" link="https://vk.com" />
-        <SayFullName name="test" surname="2" link="https://vk.com" />
-        <SayFullName name="asasa" surname="3" link="https://vk.com" />
+        <SayFullName name="Ivan" surname="Ivanov" link="https://vk.com" />
+        <SayFullName name="Oleg" surname="Smirnov" link="https://vk.com" />
       </div>
     );
   }
