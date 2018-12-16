@@ -6,9 +6,9 @@ import styled from 'styled-components';
 
 const Repair = styled.div`
   color: #ffffff;
-  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
+  font-size: 40px;
 
   span {
   	display: block;
@@ -25,14 +25,13 @@ const LightText = styled.div`
   margin-top: 54px;
 `
 const CallBtn = styled.button`
-  width: 245px;
-  height: 64px;
+  width: 247px;
+  height: 67px;
   background-color: #ffa14b;
+  border-radius: 30px;
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
-  line-height: 24px;
-  border-radius: 30px;
   margin-top: 32px;
 `
 class Main extends React.Component{
